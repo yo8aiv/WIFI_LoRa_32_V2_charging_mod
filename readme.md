@@ -1,4 +1,4 @@
-Tutorial for use with meshtastic , device WIFI_LoRa_32_V2.1  
+Tutorial for use with meshtastic , device WIFI_LoRa_32_V2.1  (SX1276)
 
 as V2 devices are using TP4054 wich seems by (generally) default has a 10k resistor on pin5 PROG
 wich in turn sets charging current to onky 100mA if a liPo baterry is used to power the board
