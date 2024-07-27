@@ -10,9 +10,7 @@ Sollution is to change R9 to a smaller value 1.6k wich will increase charging cu
 
 Also firmware wich seems to work with this version of hardware and settings right for baterry Voltage : V2.3.2 beta
  
- Thanks to the dev's at
-                  
-                      https://flasher.pdxlocs.com
+ Thanks to the dev's at -- > https://flasher.pdxlocs.com
 
 ![alt test](https://github.com/yo8aiv/WIFI_LoRa_32_V2_charging_mod/blob/main/Meshtastic%20ESP32%20Web%20Installer.png)
 
