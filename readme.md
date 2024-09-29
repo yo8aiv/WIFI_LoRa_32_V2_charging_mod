@@ -3,6 +3,8 @@ Tutorial for use with meshtastic , device WIFI_LoRa_32_V2.1  (SX1276)
 as V2 devices are using TP4054 wich seems by (generally) default has a 10k resistor on pin5 PROG
 wich in turn sets charging current to onky 100mA if a liPo baterry is used to power the board
 
+![TP4054_Iset](https://github.com/user-attachments/assets/a9fbdb11-3987-4524-9acf-0f513392b475)
+
 Sollution is to change R9 to a smaller value 1.6k (or make a bridge with a wire, i do not advise tho unless no option left) wich will increase charging current to 600mAh
 ![alt text](https://github.com/yo8aiv/WIFI_LoRa_32_V2_charging_mod/blob/main/WIFI-LoRa-32-V2.1.png)
 
@@ -21,3 +23,4 @@ Also firmware wich seems to work with this version of hardware and settings righ
 >>  #define EXT_NOTIFY_OUT 13 // Default pin to use for Ext Notify Module.
 >>
 you can build a custom bin if needed -- >  https://github.com/meshtastic/firmware/blob/master/variants/heltec_v2.1/variant.h
+
